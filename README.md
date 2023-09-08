@@ -11,6 +11,7 @@ This project aims to create a user-friendly web application for avid readers to 
 - [Description](#description)
 - [Key Features](#key-features)
 - [Technology Used](#technology-used)
+- [GitHub Repo](#github-repo)
 - [Deployment](#deployment)
 - [Installation](#installation)
 - [License](#book-search-engine)
@@ -36,13 +37,9 @@ This project aims to create a user-friendly web application for avid readers to 
 
 [Book Search Engine](https://github.com/elenagurchinskaia/book-search-engine)
 
-## Walkthrough Video
+## Deployment
 
-[Video](https://drive.google.com/file/d/1Ht_rxGX3r-PFjGHRz3ZKdPuR_EFAlS8f/view)
-
-## Code Snippet
-
-![alt text](./assets/carbon.png)
+![Book-Search-Engine](https://elena-book-search-01a02c50dd0b.herokuapp.com/)
 
 ## Installation
 
