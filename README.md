@@ -39,7 +39,7 @@ This project aims to create a user-friendly web application for avid readers to 
 
 ## Deployment
 
-![Book-Search-Engine](https://elena-book-search-01a02c50dd0b.herokuapp.com/)
+[Book-Search-Engine](https://elena-book-search-01a02c50dd0b.herokuapp.com/)
 
 ## Installation
 
