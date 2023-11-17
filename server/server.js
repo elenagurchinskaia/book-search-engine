@@ -27,12 +27,17 @@ const startApolloServer = async () => {
       context: authMiddleware,
     })
   );
-
+  // Serve static files from the React app in development mode
   if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "../client/dist")));
 
     app.get("*", (req, res) => {
       res.sendFile(path.join(__dirname, "../client/dist/index.html"));
+    });
+  } else {
+    // Serve a basic message at the root route in non-production mode
+    app.get("/", (req, res) => {
+      res.send("Welcome to the development mode!");
     });
   }
 
